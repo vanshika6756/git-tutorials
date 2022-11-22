@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <!-- <link rel="backend" href="userinfo.php">  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Registeration Form</h3>
+    <form>
+        <label for="name"> Name </label>
+        <div>
+             <input type="text" name="name" id="name">
+        </div>
+        
+        <br>
+        <label for="role"> Role: </label>
+        <div>
+          <input type="text" name="myrole" id="role">
+        </div>
+        <br>  <label for="email">E-mail </label>
+
+        <div>
+           <input type="email" name="email" id="email" >
+        </div>
+        <br>
+        <label for="date"> Date: </label>
+        <div>
+           <input type="datetime-local" name="mydate" id="date">
+        </div>
+        <br>
+        <label for="bonus"> Bonus: </label>
+        <div>
+             <input type="number" name="mybonus" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="desc" style="margin-bottom: 200px;">Concern</label> 
+            
+            
+            <textarea name="desc" id="desc"  cols="28" rows="5" style="border: 2px solid   rgba(76, 75, 77, 0.5); border-radius: 7px; "></textarea>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="add">Address:</label>
+            <select name="myadd" id="add">
+                <option value="gha">Ghaziabad</option>
+                <option value="del" selected>Delhi</option>
+                <option value="bang" selected>Bangalore</option>
+                <option value="Ind" selected>Indore</option>
+
+
+            </select>
+            
+        </div>
+        <br>
+        <!-- <div style="display: flex; gap: -50px;">
+        <label for="elig" style="padding-left: 80px; padding-right: 5px;"> Eligibility: </label>
+        
+            <input type="checkbox" name="myeligibility" id="elig" checked style="accent-color:  rgba(15, 15, 15, 0.5); width: 50px; height:25px;">
+        </div>
+        <br> -->
+        <div class="gender">
+            Male <input type="radio" name="mygen" value="male" style="padding: 30px; width: 25px; height: 25px; accent-color:   rgb(22, 22, 105); padding-right: 100px;" checked>          Female<input type="radio" name="mygen" value="female" style="padding: 30px; width: 25px; height: 25px;accent-color:  rgb(22, 22, 105);">
+        </div>
+        <br>
+        
+       
+        <!-- <div style="height: 35px;">
+             <input type="reset" value="Reset"  style="padding-top: 2px;">
+        </div>
+        <br> -->
+        <div class="suin">
+            <input type="submit" value="Submit" style="padding-top: 2px;">
+        </div>
+    </form>
+    
+    
+</body>
+</html>

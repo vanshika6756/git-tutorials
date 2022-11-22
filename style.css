@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    /* background-color: antiquewhite; */
+    background-image: url("https://www.itl.cat/pngfile/big/299-2992882_gradient-iphone-backgrounds-with-high-resolution-pixel-gradient.jpg");
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3{
+    /* margin: 100px auto 10px ; */
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(22, 22, 105);
+}
+form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgba(136, 7, 172, 0.5);
+    width: 550px;
+    margin: 80px 580px 80px 480px;
+    padding: 30px 100px;
+    border-radius: 15px;
+      background-color: #ffffff;  
+     
+    
+}
+input{
+    outline: none;
+    width: 330px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 5px;
+    border: 2px solid  rgba(76, 75, 77, 0.5);
+    
+}
+label{
+    font-size: 25px;
+    color:rgb(22, 22, 105);
+}
+.gender{
+    padding-bottom: 25px;
+     display: inline-block; 
+     font-size: 25px; 
+     width: 330px;
+}
+
+
+.suin{
+    height: 35px;
+     width: 330px; 
+     padding: 5px;
+}
+
+
+@media screen and (max-width: 900px)
+{
+    body{
+        
+    background-image: url("https://www.itl.cat/pngfile/big/299-2992882_gradient-iphone-backgrounds-with-high-resolution-pixel-gradient.jpg");
+        /* background-position: center; */
+        background-size: cover;
+        min-height: 100vh;
+        
+    }
+    h3{
+        align-items: center;
+    }
+   form{
+         width: 70vw; 
+        text-align: center ;
+        justify-content: center;
+        align-items: center;
+        margin: 30vw 20vw 30vw 30vw;
+        padding: 20vw;
+    }
+    
+    input{
+         width: 40vw; 
+         
+         
+    }
+    textarea{
+        width: 40vw;
+        
+    }
+    input value[type=submit]
+    {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin-left: -30rem;
+    }
+    .gender{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    input value[type=radio]
+    {
+        padding: 0;
+        height: 3rem;
+        width: 3rem;
+    }
+
+}
